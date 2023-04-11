@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Final Product - Cooking PAPA</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Cooking PAPA</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Introduction</a></li>
+							<li><a href="method.html">Research Methods</a></li>
+							<li><a href="Prototypes.html">Prototypes</a></li>
+							<li class="active"><a href="final.html">Final Product</a></li>
+							<li><a href="team.html">The Team</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/feliciaivane/project-portfolio" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+						<section class="post">
+							<header class="major">
+								<h1>Final Product</h1>
+							</header>
+
+							<!-- Text stuff -->
+								<h2>Combined Prototype</h2>
+								<p>Combining different aspects of our individual Hi-Fi prototypes, we came up with our combined Hi-Fi prototype. We took parts from our individual prototypes that were either only done by one member, or we felt was better done by a certain member.</p>
+								<img src="images/Final/combined.gif" style="object-fit:contain;
+									top:-20px;
+									width:260px;
+									height:560px;
+									border: solid 1px #CCC"/>
+								<br>
+								<br>
+								<a href="https://www.figma.com/proto/8h4ra5Eyg2dgWSItuCDRmy/g18-combined-figma?node-id=9-12196&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A12196" class="button">Combined Prototype</a>
+								<br>
+								<br>
+								<p>Looking back now, our initial combined prototype was still lacking in many ways, which we have since improved on.</p>
+								<hr />
+								
+								<h2>Ensuring Usability</h2>
+								<p>To best ensure the usefulness and functionality of Cooking PAPA, we carried out a final round of Usability Testing with our target users. Here are some notable findings:</p>
+								<ul>
+									<li>Recipe maker should allow users to input the name of the recipe first instead of taking a picture of the dish.</li>
+									<li>Word phrasing of "Ingredients List" could be changed to "Inventory". Users thought that this was the shopping list and tried to find items there.</li>
+									<li>Delete mood function was completely unintuitive as there were no signifiers or hints of it being available.</li>
+									<li>Button for adding the mood could be made more obvious as users had some trouble identifying which button to press. (Took a while to realize the button)</li>
+									<li>Shopping list search bar was not implemented when the user tried to search for an item.</li>
+									<li>Selecting an emoji from a regular keyboard is not very intuitive.</li>
+									<li>Sorting functions did not seem to work. Could be implemented.</li>
+									<li>Word phrasing of "Clear List" could be changed to "Finish Shopping". Helps improve clarity.</li>
+									<li>Users tried clicking various parts of the recipe from "Recommended Recipes" but only the image and arrow brought them to the page. Could increase clickable regions.</li>
+									<li>It was funny that there is only tomato noodle soup and it is not a "complete recipe" as there are missing ingredients. Could make another recipe.</li>
+									<li>Editing a recommended recipe and "save"-ing it seemed weird as users thought they would be changing the recommended recipe's base information. Word could be changed to "Confirm".</li>
+									<li>It was troublesome to scroll all the way down to access the “generate shopping list” button.</li>
+									<li>Word phrasing of "Cancel cooking" could be changed to "Cancel". This simplifies it and allows the button to be bigger.</li>
+									<li>User's name should change when the edits are made.</li>
+									<li>Better indication of skill levels should be made. Which is higher skill and lower skill.</li>
+								</ul>
+								<br>
+								<p>And here are the biggest adjustments we made to our prototype as well as our justifications:</p>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Adjusment</th>
+													<th>Justification</th>
+													<th>Before</th>
+													<th>After</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Use alternating white and grey backgrounds for each recipe in the page. </td>
+													<td>Before, the user may have slight trouble clicking on the appropriate recipe as the arrow was at the bottom right and may accidentally click to the bottom recipe. This change helps users differentiate between recipes better.</td>
+													<td><br><img src="images/Adjustments/1_bef.png" alt="" height="380"/></td>
+													<td><br><img src="images/Adjustments/1_aft.png" alt="" height="380"/></td>
+												</tr>
+												<tr>
+													<td>On the home page, “Generate” -> “Generate Recipe” to help users see that they will generate a recipe. Redesigned the buttons to hide them and add mood as the main display. </td>
+													<td>The generate button may not be obvious that it is related to the buttons above and used to generate a recipe.
+
+														Reduced the clutter by shifting the buttons to “manual input” and made the generate recipe button more obvious as to its purpose. Also made the purpose of mood more obvious in this new design. 
+														</td>
+														<td><br><img src="images/Adjustments/2_bef.png" alt=""  height="500"/></td>
+														<td><br><img src="images/Adjustments/2_aft.png" alt="" height="500"/></td>
+												</tr>
+												<tr>
+													<td>Add delete button to all view mood pop ups (Bottom right corner). </td>
+													<td> Before, sliding was not intuitive as there was no indication that it could be done, which ‘locked’ the delete button for users who did not know it was possible. This change will be much clearer and easier to navigate.</td>
+													<td><br><img src="images/Adjustments/3_bef.png" alt="" height="400"/></td>
+													<td><br><img src="images/Adjustments/3_aft.png" alt="" height="300"/></td>
+												</tr>
+												<tr>
+													<td>Modified the cooking skill slider in the edit/add mood page. Add 0 - 100 and also beginner, intermediate and advanced. </td>
+													<td>A simple plain slider before without any rating or number may have confused the user before. This new addition of indicators would inform users and help them better understand where they stand.</td>
+													<td><br><img src="images/Adjustments/4_bef.png" alt="" height="500"/></td>
+													<td><br><img src="images/Adjustments/4_aft.png" alt="" height="500"/></td>
+												</tr>
+												<tr>
+													<td>Added back buttons in the recipe navigation page.</td>
+													<td>Without the back button, users would have to cancel the cooking and re-enter it, while also clicking next to the screen. This would have been frustrating as there was no easy way for users to correct their mistakes by going back one page. Hence the change was made.</td>
+													<td><br><img src="images/Adjustments/5_bef.png" alt="" height="500"/></td>
+													<td><br><img src="images/Adjustments/5_aft.png" alt="" height="500"/></td>
+												</tr>
+												<tr>
+													<td>“Generate shopping list” button fixed at the bottom just above the main bar.  </td>
+													<td>Users would be able to see it and access it all the time, they do not have to scroll to the end of their list to see it, making it less tedious, especially if the list is long.</td>
+													<td><br><img src="images/Adjustments/6_bef.png" alt="" height="500"/></td>
+													<td><br><img src="images/Adjustments/6_aft.png" alt="" height="500"/></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								<hr />
+
+								<h2>Final Product</h2>
+								<p>After making changes as per our findings from our final Usability Testing as well as fixing prototype bugs we found on our own, here is our finalised Figma prototype for Cooking PAPA, feel free to try it out!</p>
+								<img src="images/Final/final.gif" style="object-fit:contain;
+									top:-20px;
+									width:260px;
+									height:560px;
+									border: solid 1px #CCC"/>
+								<br>
+								<br>
+								<a href="https://www.figma.com/proto/8h4ra5Eyg2dgWSItuCDRmy/g18-combined-figma?node-id=9-12196&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A12196" class="button">Final Prototype</a>
+								<br>
+								<br>
+								<p>With reference to our 3 key user tasks, here are 3 tasks for you to attempt!
+									<ul>
+										<li>You're making a trip to the supermarket soon; generate a list of ingredients to buy.</li>
+										<li>Create a new mood "Hangry" for your profile, and generate a list of possible meals to cook for this mood.</li>
+										<li>Check out which of your ingredients are expiring, and cook a meal using these expiring ingredients.</li>
+									</ul>
+								</p>
+								<p>We are confident that you will be able to complete these 3 tasks with ease using our finalised Cooking PAPA design.</p>
+								<hr />
+
+								<h2>Conclusion</h2>
+								<p>Building Cooking PAPA was a blast, allowing the team to flexibly express our creativity while solving an apparent problem within the market. We really hope that Cooking PAPA brings great value to your cooking journey and would love to hear from you!</p>
+								<p>Contact us through any of our emails as displayed in <a href="team.html">The Team</a> section.</p>
+								<div class="col-6"><span class="image fit"><img src="images/cat.webp" alt="" /></span></div>
+
+					</div>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; G18 2023</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
